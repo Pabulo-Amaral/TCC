@@ -1,2 +1,2 @@
 # TCC
-Contém a codificação utilizado no projeto de TCC sobre pêndulo invertido.
+Contém os arquivos relacionados ao projeto de Pêndulo Invertido.
