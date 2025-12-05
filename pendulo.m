@@ -1,7 +1,7 @@
 %% CARREGA DADOS
 
-x_data = xlsread('Pendulo','Dados','D5:J204');
-theta_data = xlsread('Pendulo','Dados','F5:G204');
+x_data = xlsread('Pendulo','Dados','D5:D204');
+theta_data = xlsread('Pendulo','Dados','F5:F204');
 tempo = xlsread('Pendulo','Dados','A5:A204');
 dt = 0.01;
 
@@ -154,4 +154,5 @@ numec = [kd kp ki];
 denoc = [1 0];
 Gc = tf(numec,denoc);
 hold on
+
 step(feedback(Gc*sys,1)) 
